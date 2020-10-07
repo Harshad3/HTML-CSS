@@ -13,11 +13,18 @@ op<!DOCTYPE html>
 		a:link, a:visited{
 			background-color: #f44336;
 			color:black;
-			padding: 15px 25px;
+			padding: 20px 30px;
 			display: inline-block;
-			border-radius: 10px;
+			border-radius: 7px;
 			text-align: center;
 			text-decoration: none;
+		}
+		.a1:hover{background-color: yellow;
+			text-decoration: underline overline;
+
+		}
+		a:hover{
+			class="a1";
 		}
 		p1
 		{
@@ -29,8 +36,18 @@ op<!DOCTYPE html>
 		p
 		{	background-color:red;
 			font-family:verdana;
-			font-size:100%;
-			
+			font-size:100%;	
+		}
+		h1{
+			background-color: #f44336;
+			color:black;
+			padding: 12px 20px;
+			display: inline-block;
+			border-radius: 7px;
+			text-align: center;
+			text-decoration: none;
+			background-position: center;
+
 		}
 		button:link{
 			color:yellow;
@@ -38,10 +55,11 @@ op<!DOCTYPE html>
 			
 		}
 		button:hover{
-			color:green;
+			color:whitesmoke;
+			border-color: yellow;
 			background-color:rgb(0,0,0);
 			text-decoration: underline;
-			border-radius: 7px;
+			border-radius: 4px;
 		}
 		button:visited{
 			color:blue;
@@ -63,7 +81,7 @@ op<!DOCTYPE html>
 	
 				<p style="text-align: right; background-color:"red"><strong>hello</strong></p> 
 			
-			<h1 title="This is head" style="border-color: blue;background-color: violet;font-size: 30px"><i>Harshad Lasgare</i></h1>
+			<h1 title="This is head"  style="color:white;border-color: blue;background-image: url('https://www.thisiscolossal.com/wp-content/uploads/2018/08/Isopoly_01.gif'); font-size: 30px"><i>Harshad Lasgare</i></h1>
 			
 	</table>
 <hr>
@@ -74,10 +92,10 @@ op<!DOCTYPE html>
 <button class="btn btn-success" onclick=window.open('','_blank')> Google</button>
 <button class="btn btn-success" onclick=" window.open('http://google.com','_blank')">gmail</button>
 <hr>
-<a href="https://www.google.com" target="_blank">Google</a>
+<a class="a1" href="https://www.google.com" target="_blank">Google</a>
 
 <hr>
-		<table style="background-color: cyan" border="1">
+		<table style="background-color: cyan; border-spacing: 1px;" border="1">
 		<tr>
 			<th style="background-color: red">date</th>
 			<th>values</th>
@@ -113,7 +131,7 @@ op<!DOCTYPE html>
 <hr>
 <! image with URL >
 <a href="C:\Users\NACHIKETA\Desktop\Harshad\HTML">
-	<img src="C:\Users\NACHIKETA\Desktop\Harshad\HTML\har.jpg"; height="30%"; width="30%"; alt="Harshad">
+	<img src="https://www.thisiscolossal.com/wp-content/uploads/2018/08/Isopoly_04.gif"; style="width:200px;height:200px" alt="Harshad">
 </a>
 <! image with URL >
 
